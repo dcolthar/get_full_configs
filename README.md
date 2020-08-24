@@ -1,6 +1,7 @@
 # get_full_configs
 
-## USAGE
+## Description
+Nothing fancy, reads from a list of hosts and fetches their full config.  Creates subdirectories for each host inside of config_output.  If run consecutively and changes are detected based on filehash it will write the diff to a file in that subfolder as well as rename the old current config to OLD_CONFIG_RENAMED_(DATE).  The list of diffs in a file will also share this same date to help correlate the changes.
 
 ### Options
 
